@@ -23,7 +23,7 @@ spring:
     druid:
       driver-class-name: oracle.jdbc.driver.OracleDriver      # oracle驱动包
       # 测试数据库 地址；账户；密码
-      url: jdbc:oracle:thin:@localhost:1521/orcl
+      url: jdbc:oracle:thin:@localhost:1521/ORCL
       username: mmzsit
       password: mmzsit
       filters: stat,wall,slf4j

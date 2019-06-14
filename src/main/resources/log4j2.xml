@@ -3,7 +3,7 @@
 
     <!-- 变量配置 -->
     <Properties>
-        <Property name="log_path">./logs</Property>
+        <Property name="log_path">D:/logs</Property>
         <!-- <Property name="log_path">${web:rootDir}/custom</Property>-->
     </Properties>
     <Appenders>

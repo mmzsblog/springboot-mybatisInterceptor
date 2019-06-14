@@ -46,21 +46,20 @@
             <artifactId>spring-boot-starter-log4j2</artifactId>
         </dependency>
         <!--添加MySql依赖 -->
-  
+        <!--
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.42</version>
         </dependency>
-   
+        -->
+
         <!-- 添加Oracle依赖 -->
-        <!--  
         <dependency>
             <groupId>com.oracle</groupId>
             <artifactId>ojdbc6</artifactId>
             <version>11.2.0.3</version>
         </dependency>
-        -->
         <!-- 添加druid依赖: 一个用来连接数据库的链接池 -->
         <dependency>
             <groupId>com.alibaba</groupId>

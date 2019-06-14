@@ -39,19 +39,19 @@
       <property name="enableSubPackages" value="true" />
       <property name="trimStrings" value="true" />
     </javaModelGenerator>
-    
- 	<!-- 生成的映射文件包名和位置,targetProject和项目同名 -->
-    <sqlMapGenerator targetPackage="com.java.mmzsit.dao"  targetProject="springboot-mybatis-interceptor-on-the-database-level-table">
+
+ 	<!-- 生成DAO的包名和位置,targetProject和项目同名 --> 
+    <javaClientGenerator type="XMLMAPPER" targetPackage="com.java.mmzsit.dao"  targetProject="springboot-mybatis-interceptor-on-the-database-level-table">
+      <property name="enableSubPackages" value="true" />
+    </javaClientGenerator>
+
+    <!-- 生成的映射文件包名和位置,targetProject和项目同名 -->
+    <sqlMapGenerator targetPackage="com.java.mmzsit.mapper"  targetProject="springboot-mybatis-interceptor-on-the-database-level-table">
       <property name="enableSubPackages" value="true" />
     </sqlMapGenerator>
     
- 	<!-- 生成DAO的包名和位置,targetProject和项目同名 --> 
-    <javaClientGenerator type="XMLMAPPER" targetPackage="com.java.mmzsit.mapper"  targetProject="springboot-mybatis-interceptor-on-the-database-level-table">
-      <property name="enableSubPackages" value="true" />
-    </javaClientGenerator>
-    
 	<!-- 要生成那些表tableName，该表生成后的类名ObjectName是什么 --> 
-    <table  tableName="TESTDATAS" domainObjectName="testdatas" 
+    <table  tableName="TESTDATAS" domainObjectName="TestDatas"
        enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
