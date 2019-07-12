@@ -10,7 +10,6 @@
     <name>springboot-mybatis-interceptor-on-the-database-level-table</name>
     <url>http://maven.apache.org</url>
 
-
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-parent</artifactId>
@@ -24,6 +23,7 @@
     </properties>
 
     <dependencies>
+        <!-- SpringBoot启动依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>

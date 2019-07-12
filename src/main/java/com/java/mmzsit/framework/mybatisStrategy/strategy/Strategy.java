@@ -1,4 +1,4 @@
-package com.java.mmzsit.framework.mybatisStrategy;
+package com.java.mmzsit.framework.mybatisStrategy.strategy;
 
 /**
  * 分表策略服务接口

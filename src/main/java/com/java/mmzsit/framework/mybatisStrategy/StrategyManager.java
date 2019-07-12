@@ -1,5 +1,7 @@
 package com.java.mmzsit.framework.mybatisStrategy;
 
+import com.java.mmzsit.framework.mybatisStrategy.strategy.Strategy;
+
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 /**

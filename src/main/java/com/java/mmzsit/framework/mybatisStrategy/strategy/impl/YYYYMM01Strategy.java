@@ -1,6 +1,7 @@
-package com.java.mmzsit.framework.mybatisStrategy;
+package com.java.mmzsit.framework.mybatisStrategy.strategy.impl;
 
 import com.java.mmzsit.framework.mybatisStrategy.framework.util.DateUtil;
+import com.java.mmzsit.framework.mybatisStrategy.strategy.Strategy;
 
 import java.text.ParseException;
 /**
@@ -8,7 +9,7 @@ import java.text.ParseException;
  * @description：按月分表策略
  * @date ：2019/6/13 10:29
  */
-public class YYYYMM01Strategy implements Strategy{
+public class YYYYMM01Strategy implements Strategy {
 
     @Override
     public String returnTableName(String tableName, String param) {

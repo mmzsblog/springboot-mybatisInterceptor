@@ -2,7 +2,7 @@ package com.java.mmzsit.framework.interceptor;
 
 import com.java.mmzsit.framework.annotation.TableSplitRule;
 import com.java.mmzsit.framework.annotation.TableSplitTarget;
-import com.java.mmzsit.framework.mybatisStrategy.Strategy;
+import com.java.mmzsit.framework.mybatisStrategy.strategy.Strategy;
 import com.java.mmzsit.framework.mybatisStrategy.StrategyManager;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.executor.statement.StatementHandler;

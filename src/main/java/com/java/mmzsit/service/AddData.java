@@ -1,6 +1,6 @@
 package com.java.mmzsit.service;
 
-import com.java.mmzsit.model.TestDatas;
+import com.java.mmzsit.entity.TestDatas;
 
 /**
  * @author ：mmzsit
@@ -13,6 +13,6 @@ public interface AddData {
      * @param datas
      * @return 更新条数
      */
-    public int add(TestDatas datas);
+    int add(TestDatas datas);
 
 }

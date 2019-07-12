@@ -1,6 +1,6 @@
 package com.java.mmzsit.controller;
 
-import com.java.mmzsit.model.TestDatas;
+import com.java.mmzsit.entity.TestDatas;
 import com.java.mmzsit.service.AddData;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;

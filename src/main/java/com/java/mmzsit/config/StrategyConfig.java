@@ -1,7 +1,7 @@
 package com.java.mmzsit.config;
 
 import com.java.mmzsit.framework.mybatisStrategy.StrategyManager;
-import com.java.mmzsit.framework.mybatisStrategy.YYYYMM01Strategy;
+import com.java.mmzsit.framework.mybatisStrategy.strategy.impl.YYYYMM01Strategy;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
