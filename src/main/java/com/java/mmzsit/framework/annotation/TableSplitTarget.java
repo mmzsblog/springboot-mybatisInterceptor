@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 /**
  * 分表策略拦截
- * @author tianwei
+ * @author mmzsit
  *
  */
 @Retention(RetentionPolicy.RUNTIME)

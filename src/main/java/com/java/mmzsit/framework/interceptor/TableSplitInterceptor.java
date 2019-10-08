@@ -20,7 +20,7 @@ import java.util.Properties;
 
 /**
  * @author ：mmzsit
- * @description：
+ * @description：策略分表拦截器
  * @date ：2019/6/14 10:10
  */
 @Slf4j(topic="策略分表拦截器【TableSplitInterceptor】")
